@@ -1,0 +1,89 @@
+body {
+    background-color: rgb(0, 255, 255);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(0, 5, 62);
+    max-width: 400px;
+    margin: auto;
+    margin-top: 100px;
+    min-height:500px;
+    border-radius: 12px;
+    backdrop-filter: blur(10px);
+}
+
+.container h3 {
+    color: white;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.container select {
+    border: none;
+    outline: none;
+    background-color:lawngreen;
+    padding: 12px 20px;
+    width: 80%;
+    border-radius: 5px;
+    font-size: medium;
+    font-weight: 600;
+    transition: all;
+    transition-duration:2000;
+    margin: 12px 0;
+}
+
+.container div {
+    width: 80%;
+}
+
+.button {
+    width: 100%;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border: 0;
+    border-radius: 8px;
+    font-size: medium;
+    font-weight: 600;
+    margin-top: 10px;
+    transition: all;
+    transition-duration: 500;
+}
+
+.button:hover {
+    scale: 1.03;
+}
+
+.button:active{
+    scale: 0.95;
+}
+.message {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.message button {
+    padding: 5px 15px;
+    background-color: aqua;
+    color:black;
+    border: 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display: none;
+}
+
+.message p {
+    color: lightgreen;
+    font-size: 18px;
+    font-weight: 600px;
+
+}
